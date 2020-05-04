@@ -1,0 +1,15 @@
+<%- include("partials/header") %>
+<form class="form" action="/postform" method="post">
+			<input type="text" class="input" name="fname" placeholder="First Name" required>
+		
+			<input type="text" class="input" name="lname" placeholder="Last Name" required>
+
+			<input type="tel"  class="input" name="phone" 
+			placeholder="Phone" required>
+   
+			<input type="email" class="input" name="mail" placeholder="Email" required>
+
+			<textarea class="input" name="comment" placeholder="Message" rows="5" cols="33"></textarea>
+			<input type="submit" class="btn">
+	</form>
+<%- include("partials/footer") %>
