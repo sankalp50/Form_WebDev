@@ -1,0 +1,53 @@
+body
+{
+	background: url(https://storage.pixteller.com/designs/designs-images/2019-03-27/04/business-background-backgrounds-business-1-5c9b8f720ae83.png);
+	display: flex;
+  	justify-content: center;
+	background-size: cover;
+	background-position: center;
+	margin-right: 250px;
+	font-family: 'Roboto', sans-serif;
+}
+form
+{
+	background: rgba(0,0,0,0.8);
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 100px;
+	padding-top: 50px;
+	padding-bottom: 25px;
+	margin-bottom: 100px;
+	width: 35%;
+	margin-left: 250px;
+	/* margin-right: 250px; */
+}
+
+.input
+{
+	background: transparent;
+	border: 0;
+	border-bottom: 2px solid #c5ecfd;
+	padding: 20px;
+	color: #c5ecfd;
+	width: 70%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.13);
+}
+::-webkit-input-placeholder{
+     color: #c5ecfd;
+}
+.btn
+{
+	background: #39b7dd;
+	padding: 10px 30px 10px 30px;
+	text-transform: uppercase;
+	color: #fff;
+	width: 50%;
+	height: 40px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+html
+{
+	height: 100%;
+}
+
