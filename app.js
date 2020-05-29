@@ -36,7 +36,7 @@ app.post("/postform",function(req,res){
     secure: false, // true for 465, false for other ports
     auth: {
         user: 'sherlockwatsonb4@gmail.com', // generated ethereal user
-        pass: 'shanky59&*'  // generated ethereal password
+        pass: '******'  // generated ethereal password
     },
     tls:{
       rejectUnauthorized:false
